@@ -28,7 +28,7 @@ window_after = browser.window_handles[0]
 browser.switch_to.window(window_after)
 print("Step 2b: Switching to Signin page ... Done")
 
-# Step 3: Find email and password input and signin button (credentials: yoyim22273@esmoud.com, yoyim22273)
+# Step 3: Find email and password input and signin button
 email_input = browser.find_element(By.ID, "ap_email").send_keys(EMAIL)
 password_input = browser.find_element(By.ID, "ap_password").send_keys(PASSWORD)
 submit_signin = browser.find_element(By.ID, "signInSubmit")

@@ -33,7 +33,7 @@ class Book:
         return f"{title} by {author}"
 ```
 
-### Python list containing a collection of Book objects
+### A collection of Book objects
 ```
     French_Literature_Books = [
 
@@ -62,7 +62,7 @@ class Book:
 
 ## Phase 2 : Export data to `csv`
 
-Write the collected data to a CSV file using "utf-8" as encoding.
+Write the collected data to a CSV file using `utf-8` as encoding.
 
 
 
