@@ -1,21 +1,30 @@
 # Web Scraping Using Selenium
 
+![Book Shelves](./images/alfons-morales-YLSwjSy7stw-unsplash.jpg)
+
+## Introduction
+
+In this short project, we are going to fetch the first 100 French literature books from the site `www.goodreads.com`. The goal of this project is to scrape data using `selenium` and export the collected data in `CSV` format.
+
 - Create a virtual environmrent
 - Install `Selenium` using `PIP`
 
 
 ## Drivers
 
-- Chrome: ChromeDriver
-- Firefox: geckodriver
+- Chrome: `ChromeDriver`
+- Firefox: `geckodriver`
 
 ## Data Structure
 
-### Book object 
+- A class with properties and methods.
+- A Python list to store the collected books.
+
+### Book Properties
 - Author name
 - Book title
 - Book description
-- Book illustration
+- Book illustration (cover)
 
 (Extra parameters)
 + Published date
@@ -33,7 +42,7 @@ class Book:
         return f"{title} by {author}"
 ```
 
-### A collection of Book objects
+### A collection of Book Objects
 ```
     French_Literature_Books = [
 
