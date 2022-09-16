@@ -60,21 +60,17 @@ class Book:
 
 ## Phase 1 : Selenium
 
-- Step 1: Init web driver and get the url
-- Step 2a: Locate the Signin button
+- Step 1: Init web-driver `geckodriver` and go to the `url`
+- Step 2a: Locate the `Signin` button
 - Step 2b: Window switch
-- Step 3: Find email and password input and signin button
-- Switch to French Literature page
-- Step 5 : Fetch all titles and authors
-
-
+- Step 3: Find `Email` and `Password` input and `Signin` button
+- Switch to French Literature page (`www.goodreads.com/list/show/67.Best_French_Literature`)
+- Step 5 : Collect all titles and authors
 
 ## Phase 2 : Export data to `csv`
 
-Write the collected data to a CSV file using `utf-8` as encoding.
-
-
-
+- Create a `CSV` file using a context manager
+- Write the collected data to a CSV file using `utf-8` as encoding
 
 
 
